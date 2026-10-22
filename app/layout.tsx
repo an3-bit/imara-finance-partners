@@ -39,6 +39,14 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,
@@ -58,21 +66,12 @@ export const metadata: Metadata = {
     description:
       "Reliable accounting, tax compliance, payroll, and financial advisory services designed to help Kenyan businesses stay organized, understand their numbers, and grow with confidence.",
     siteName: siteConfig.name,
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Imara Finance Partners - Professional Accounting in Nairobi",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Imara Finance Partners | Accounting & Bookkeeping in Nairobi",
     description:
       "Professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory services in Nairobi, Kenya.",
-    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: siteConfig.siteUrl,

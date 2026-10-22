@@ -76,16 +76,16 @@ export default function AboutPage() {
     <div className="bg-brand-ivory min-h-screen">
       {/* Hero Section */}
       <section className="bg-forest text-white py-16 lg:py-24 relative overflow-hidden border-b border-forest-light">
-        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/95 to-forest/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/95 via-forest to-forest-dark/90" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs text-brand-accent font-medium">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest-dark/90 backdrop-blur-md border border-brand-accent/40 text-xs text-brand-accent font-bold shadow-md">
               <span>About Our Firm</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
               A Clearer Approach to Business Accounting
             </h1>
-            <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
+            <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               Imara Finance Partners is being developed to provide practical
               accounting, bookkeeping, tax compliance support, payroll
               management, and financial advisory services to businesses in
@@ -140,7 +140,7 @@ export default function AboutPage() {
                   }}
                 >
                   <Image
-                    src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    src="/services/about.jpg"
                     alt="Finance professionals reviewing business performance"
                     fill
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -315,14 +315,14 @@ export default function AboutPage() {
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
                 Based in Roysambu, Nairobi
               </h2>
-              <div className="space-y-1 text-base sm:text-lg text-gray-200">
+              <div className="space-y-1 text-base sm:text-lg text-white/95">
                 <p className="font-semibold text-white">
                   {siteConfig.name}
                 </p>
                 <p>{siteConfig.address.building}, {siteConfig.address.floor}</p>
                 <p>{siteConfig.address.area}, Nairobi, Kenya</p>
               </div>
-              <p className="text-xs sm:text-sm text-gray-300 max-w-xl pt-2">
+              <p className="text-xs sm:text-sm text-white/80 max-w-xl pt-2">
                 In-person consultations are arranged by appointment. Please
                 contact our team to discuss your business accounting support
                 needs.

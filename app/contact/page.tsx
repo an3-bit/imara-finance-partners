@@ -34,16 +34,16 @@ export default function ContactPage() {
     <div className="bg-brand-ivory min-h-screen">
       {/* Hero Banner */}
       <section className="bg-forest text-white py-14 lg:py-20 relative overflow-hidden border-b border-forest-light">
-        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/95 to-forest/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/95 via-forest to-forest-dark/90" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs text-brand-accent font-medium">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest-dark/90 backdrop-blur-md border border-brand-accent/40 text-xs text-brand-accent font-bold shadow-md">
               <span>Client Inquiries & Consultation</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
               Contact Imara Finance Partners
             </h1>
-            <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
+            <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               Tell us about your business, transaction volume, or the specific
               accounting support you require. We are based in Roysambu, Nairobi
               and support enterprises across Kenya.

@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   BookOpenCheck,
@@ -45,21 +46,27 @@ const iconMap = {
   ShieldCheck,
 };
 
+// Per-service image extensions (default is .jpg)
+const serviceImageExt: Record<string, string> = {
+  "tax-compliance-and-support": ".webp",
+  "accounts-payable-and-receivable-management": ".avif",
+};
+
 export default function ServicesPage() {
   return (
     <div className="bg-brand-ivory min-h-screen">
       {/* Header Banner */}
       <section className="bg-forest text-white py-16 lg:py-24 relative overflow-hidden border-b border-forest-light">
-        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/90 to-forest/95" />
+        <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/95 via-forest to-forest-dark/90" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs text-brand-accent font-medium">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest-dark/90 backdrop-blur-md border border-brand-accent/40 text-xs text-brand-accent font-bold shadow-md">
               <span>Professional Services Overview</span>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
-              Accounting, Tax & Finance Advisory Services
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+              Accounting, Tax &amp; Finance Advisory Services
             </h1>
-            <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
+            <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               We provide structured, dependable support across eight core financial
               disciplines, designed to help Kenyan businesses maintain organized
               records, satisfy statutory obligations, and make informed commercial decisions.
@@ -67,7 +74,7 @@ export default function ServicesPage() {
           </div>
 
           {/* Quick Jump Bar */}
-          <div className="mt-10 pt-8 border-t border-white/15">
+          <div className="mt-10 pt-8 border-t border-white/20">
             <span className="text-xs uppercase font-bold tracking-wider text-brand-accent block mb-3">
               Jump directly to a service:
             </span>
@@ -76,7 +83,7 @@ export default function ServicesPage() {
                 <a
                   key={s.id}
                   href={`#${s.id}`}
-                  className="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-brand-accent hover:text-forest text-xs font-medium text-white transition-all border border-white/10"
+                  className="px-3.5 py-2 rounded-lg bg-forest-dark/85 hover:bg-brand-accent hover:text-forest text-xs font-semibold text-white transition-all border border-white/20 shadow-xs"
                 >
                   {idx + 1}. {s.title}
                 </a>
@@ -91,13 +98,13 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           {servicesData.map((service, index) => {
             const Icon = iconMap[service.iconName] || BookOpenCheck;
-            const isEven = index % 2 === 1;
+            const imgExt = serviceImageExt[service.id] ?? ".jpg";
 
             return (
               <div
                 key={service.id}
                 id={service.id}
-                className="scroll-mt-28 rounded-3xl bg-white border border-brand-border/80 shadow-sm hover:shadow-md transition-shadow p-6 sm:p-10 lg:p-12"
+                className="scroll-mt-28 rounded-3xl bg-white border border-brand-border/80 shadow-sm hover:shadow-md transition-shadow p-6 sm:p-10 lg:p-12 overflow-hidden"
               >
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
                   {/* Left Column: Title, Overview & Scope Note */}
@@ -111,13 +118,34 @@ export default function ServicesPage() {
                       </span>
                     </div>
 
-                    <h2 className="text-2xl sm:text-3xl font-extrabold text-forest tracking-tight">
-                      {service.title}
-                    </h2>
+                    <div>
+                      <h2 className="text-2xl sm:text-3xl font-extrabold text-forest tracking-tight">
+                        {service.title}
+                      </h2>
+                      <p className="text-base text-forest/90 font-medium leading-relaxed mt-2">
+                        {service.shortDescription}
+                      </p>
+                    </div>
 
-                    <p className="text-base text-forest/90 font-medium leading-relaxed">
-                      {service.shortDescription}
-                    </p>
+                    {/* Service Feature Image */}
+                    <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-brand-border shadow-md">
+                      <Image
+                        src={`/services/${service.id}${imgExt}`}
+                        alt={`${service.title} - Imara Finance Partners`}
+                        fill
+                        sizes="(max-width: 1024px) 100vw, 40vw"
+                        className="object-cover object-center transition-transform duration-500 hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/75 via-transparent to-transparent pointer-events-none" />
+                      <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white">
+                        <span className="bg-forest-dark/90 backdrop-blur-md px-3 py-1 rounded-full font-semibold border border-white/20 text-[11px]">
+                          Structured Delivery
+                        </span>
+                        <span className="text-[11px] text-brand-accent font-bold bg-black/50 px-2.5 py-1 rounded-full backdrop-blur-sm">
+                          Nairobi, Kenya
+                        </span>
+                      </div>
+                    </div>
 
                     <p className="text-sm text-brand-charcoal/80 leading-relaxed">
                       {service.fullDescription}
@@ -201,7 +229,7 @@ export default function ServicesPage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
             Not Sure Which Service Your Business Needs?
           </h2>
-          <p className="text-base sm:text-lg text-gray-200 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-white/95 leading-relaxed max-w-2xl mx-auto">
             Tell us a little about your business and your current accounting
             challenges. We can discuss a suitable scope of support and help you
             determine the most effective starting point.
