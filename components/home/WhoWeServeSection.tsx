@@ -20,15 +20,15 @@ const clientSectors = [
     icon: Rocket,
     title: "Startups and Entrepreneurs",
     description:
-      "Early-stage ventures seeking clean chart-of-accounts setup, eTIMS alignment, and lean financial workflows from day one.",
-    benefits: ["Chart-of-accounts setup", "eTIMS readiness guidance"],
+      "Early-stage ventures seeking clean chart-of-accounts setup, systems alignment, and lean financial workflows from day one.",
+    benefits: ["Chart-of-accounts setup", "Cloud systems onboarding"],
   },
   {
     icon: Store,
     title: "Retail and Wholesale Businesses",
     description:
-      "Merchants managing inventory, high-frequency M-Pesa paybill collections, supplier invoices, and VAT reconciliation.",
-    benefits: ["M-Pesa paybill reconciliations", "Accounts payable management"],
+      "Merchants managing inventory, high-frequency payment gateway collections, supplier invoices, and sales tax reconciliation.",
+    benefits: ["Payment gateway reconciliations", "Accounts payable management"],
   },
   {
     icon: BriefcaseBusiness,
@@ -41,8 +41,8 @@ const clientSectors = [
     icon: Home,
     title: "Landlords and Property Owners",
     description:
-      "Property investors and estate managers requiring accurate tenant rent ledgers, expense tracking, and Monthly Rental Income (MRI) tax preparation.",
-    benefits: ["Rent collection ledgers", "Monthly Rental Income tax support"],
+      "Property investors and estate managers requiring accurate tenant rent ledgers, expense tracking, and rental income tax preparation.",
+    benefits: ["Rent collection ledgers", "Rental income tax support"],
   },
 ];
 
@@ -58,7 +58,7 @@ export default function WhoWeServeSection() {
             Who We Serve
           </h2>
           <p className="text-sm sm:text-base text-brand-muted leading-relaxed">
-            Tailored accounting and finance solutions for Kenyan business owners
+            Tailored accounting and finance solutions for ambitious business owners worldwide
             who value accuracy, compliance, and actionable financial visibility.
           </p>
         </div>

@@ -28,11 +28,11 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Imara Finance Partners",
+  name: "LedgerBridge",
   legalEntityNote:
-    "A proposed Kenyan accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm.",
+    "A professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm.",
   tagline: "Professional Accounting. Stronger Financial Decisions.",
-  locationIndicator: "Serving businesses in Kenya | Roysambu, Nairobi",
+  locationIndicator: "Serving Businesses Globally | Remote & Worldwide",
   address: {
     building: "Jeda Plaza",
     floor: "4th Floor",
@@ -43,7 +43,7 @@ export const siteConfig: SiteConfig = {
   },
   contact: {
     // Configurable placeholders until official business accounts are supplied
-    email: "info@imarafinance.co.ke",
+    email: "info@ledgerbridge.com",
     isEmailPlaceholder: true,
     phone: "+254 700 000 000",
     isPhonePlaceholder: true,
@@ -55,6 +55,6 @@ export const siteConfig: SiteConfig = {
     googleMapsUrl:
       "https://www.google.com/maps/search/?api=1&query=Jeda+Plaza+Roysambu+Nairobi+Kenya",
   },
-  siteUrl: "https://www.imarafinance.co.ke",
-  businessHours: "Monday – Friday: 8:30 AM – 5:00 PM (EAT)",
+  siteUrl: "https://www.ledgerbridge.com",
+  businessHours: "Monday – Friday: 8:30 AM – 5:00 PM",
 };

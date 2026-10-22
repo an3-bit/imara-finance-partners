@@ -21,13 +21,13 @@ import { servicesData } from "@/lib/services-data";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Accounting, Tax & Payroll Services",
+  title: "Accounting, Tax & Financial Advisory Services | LedgerBridge",
   description:
-    "Comprehensive accounting, bookkeeping, tax compliance support, payroll management, eTIMS alignment, and financial advisory for businesses in Kenya.",
+    "Comprehensive accounting, bookkeeping, tax compliance support, payroll management, systems alignment, and financial advisory for growing businesses worldwide.",
   openGraph: {
-    title: "Accounting, Tax & Payroll Services | Imara Finance Partners",
+    title: "Accounting, Tax & Financial Advisory Services | LedgerBridge",
     description:
-      "Structured accounting, bookkeeping, tax compliance, payroll, and business finance advisory services in Nairobi, Kenya.",
+      "Structured accounting, bookkeeping, tax compliance, payroll, and business finance advisory services for enterprises globally.",
     url: `${siteConfig.siteUrl}/services`,
   },
   alternates: {
@@ -68,7 +68,7 @@ export default function ServicesPage() {
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               We provide structured, dependable support across eight core financial
-              disciplines, designed to help Kenyan businesses maintain organized
+              disciplines, designed to help growing businesses maintain organized
               records, satisfy statutory obligations, and make informed commercial decisions.
             </p>
           </div>
@@ -131,7 +131,7 @@ export default function ServicesPage() {
                     <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-brand-border shadow-md">
                       <Image
                         src={`/services/${service.id}${imgExt}`}
-                        alt={`${service.title} - Imara Finance Partners`}
+                        alt={`${service.title} - LedgerBridge`}
                         fill
                         sizes="(max-width: 1024px) 100vw, 40vw"
                         className="object-cover object-center transition-transform duration-500 hover:scale-105"
@@ -142,7 +142,7 @@ export default function ServicesPage() {
                           Structured Delivery
                         </span>
                         <span className="text-[11px] text-brand-accent font-bold bg-black/50 px-2.5 py-1 rounded-full backdrop-blur-sm">
-                          Nairobi, Kenya
+                          Global Practice
                         </span>
                       </div>
                     </div>

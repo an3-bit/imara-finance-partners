@@ -45,10 +45,7 @@ export default function FinalCtaSection() {
 
         <div className="pt-6 flex items-center justify-center gap-2 text-xs text-gray-300">
           <MapPin className="w-3.5 h-3.5 text-brand-accent" />
-          <span>
-            {siteConfig.address.building}, {siteConfig.address.floor},{" "}
-            {siteConfig.address.area}, Nairobi, Kenya
-          </span>
+          <span>{siteConfig.locationIndicator}</span>
         </div>
       </div>
     </section>

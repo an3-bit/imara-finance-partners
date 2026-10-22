@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface BrandLogoProps {
   variant?: "dark" | "light";
@@ -17,75 +18,36 @@ export default function BrandLogo({
   return (
     <Link
       href="/"
-      className={`inline-flex items-center gap-3 group transition-opacity hover:opacity-95 ${className}`}
-      aria-label="Imara Finance Partners - Home"
+      className={`inline-flex items-center gap-3.5 group transition-all duration-200 hover:opacity-95 ${className}`}
+      aria-label="LedgerBridge - Home"
     >
-      {/* Restrained geometric financial growth symbol */}
-      <div className="relative w-10 h-10 flex-shrink-0 flex items-center justify-center">
-        <svg
-          viewBox="0 0 40 40"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full transform transition-transform group-hover:scale-105"
-        >
-          {/* Rounded base badge */}
-          <rect
-            width="40"
-            height="40"
-            rx="10"
-            fill={isLight ? "#0D2925" : "#123B35"}
-          />
-          {/* Interlocking geometric growth pillars */}
-          <rect
-            x="8"
-            y="21"
-            width="5.5"
-            height="11"
-            rx="2.5"
-            fill={isLight ? "#A8E986" : "#A8E986"}
-          />
-          <rect
-            x="17"
-            y="13"
-            width="5.5"
-            height="19"
-            rx="2.5"
-            fill={isLight ? "#FFFFFF" : "#087A43"}
-          />
-          <rect
-            x="26"
-            y="8"
-            width="5.5"
-            height="24"
-            rx="2.5"
-            fill={isLight ? "#D6B56D" : "#D6B56D"}
-          />
-          {/* Subtle bridge representing partnership */}
-          <path
-            d="M 10.75 21 Q 19.75 13 28.75 8"
-            stroke={isLight ? "rgba(255,255,255,0.4)" : "rgba(168,233,134,0.7)"}
-            strokeWidth="1.75"
-            strokeLinecap="round"
-            strokeDasharray="2 2"
-          />
-        </svg>
+      {/* LB Bridge Gold Emblem Badge */}
+      <div className="relative w-11 h-11 flex-shrink-0 rounded-xl overflow-hidden shadow-md border border-[#D6B56D]/60 group-hover:border-[#F6E8B1] group-hover:scale-105 transition-all bg-[#061A16] flex items-center justify-center">
+        <Image
+          src="/ledgerbridge-logo.jpg"
+          alt="LedgerBridge Gold LB Logo"
+          fill
+          sizes="44px"
+          className="object-cover object-center scale-[1.35] -translate-y-0.5"
+          priority
+        />
       </div>
 
-      {/* Brand Name Typography */}
-      <div className="flex flex-col">
+      {/* Brand Name & Tagline Typography */}
+      <div className="flex flex-col justify-center">
         <span
-          className={`font-bold tracking-tight text-xl leading-none font-sans ${
+          className={`font-black tracking-[0.06em] text-[18px] leading-tight font-sans transition-colors ${
             isLight ? "text-white" : "text-forest"
           }`}
         >
-          IMARA
+          LEDGERBRIDGE
         </span>
         <span
-          className={`text-[9.5px] uppercase tracking-[0.22em] font-semibold mt-1 leading-none ${
-            isLight ? "text-[#A8E986]" : "text-brand-primary"
+          className={`text-[9.5px] uppercase tracking-[0.24em] font-bold leading-none mt-1 ${
+            isLight ? "text-[#E8CE8A]" : "text-[#B88E3E]"
           }`}
         >
-          Finance Partners
+          Financial Partners
         </span>
         {showTagline && (
           <span

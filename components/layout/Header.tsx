@@ -146,7 +146,7 @@ export default function Header() {
               <div className="mt-3 text-center">
                 <span className="text-xs text-brand-muted flex items-center justify-center gap-1.5">
                   <PhoneCall className="w-3.5 h-3.5 text-brand-primary" />
-                  Roysambu, Nairobi | Office Inquiries Available
+                  Serving Clients Globally | Virtual &amp; On-Site Consultations
                 </span>
               </div>
             </div>

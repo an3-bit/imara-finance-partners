@@ -12,7 +12,7 @@ export default function AboutPreviewSection() {
           {/* Left Column: Firm Story */}
           <div className="lg:col-span-7 space-y-6">
             <span className="text-xs font-bold uppercase tracking-widest text-brand-primary">
-              About Imara Finance Partners
+              About LedgerBridge
             </span>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-forest tracking-tight">
@@ -21,10 +21,10 @@ export default function AboutPreviewSection() {
 
             <div className="space-y-4 text-sm sm:text-base text-brand-charcoal/85 leading-relaxed">
               <p>
-                Imara Finance Partners is established to provide accessible,
+                LedgerBridge is established to provide accessible,
                 structured accounting, bookkeeping, tax compliance support,
                 payroll management, and practical financial advisory to
-                businesses in Kenya.
+                growing businesses worldwide.
               </p>
               <p>
                 Our core focus is on helping business owners maintain organized
@@ -45,7 +45,7 @@ export default function AboutPreviewSection() {
               </div>
               <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-forest">
                 <CheckCircle className="w-4 h-4 text-brand-primary flex-shrink-0" />
-                <span>Kenyan statutory familiarity</span>
+                <span>Statutory &amp; tax compliance expertise</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-forest">
                 <CheckCircle className="w-4 h-4 text-brand-primary flex-shrink-0" />
@@ -64,7 +64,7 @@ export default function AboutPreviewSection() {
 
               <div className="inline-flex items-center gap-2 text-xs text-brand-muted">
                 <MapPin className="w-4 h-4 text-brand-primary flex-shrink-0" />
-                <span>{siteConfig.address.fullFormatted}</span>
+                <span>Serving Clients Globally · Remote &amp; On-Site</span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function AboutPreviewSection() {
               >
                 <Image
                   src="https://images.pexels.com/photos/7688460/pexels-photo-7688460.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                  alt="African business finance team reviewing performance on a laptop"
+                  alt="Finance professionals reviewing business performance"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center"
@@ -92,9 +92,9 @@ export default function AboutPreviewSection() {
               </div>
               <div className="p-4 bg-white border-t border-brand-border flex items-center justify-between text-xs">
                 <span className="font-semibold text-forest">
-                  Roysambu, Nairobi Office
+                  Global Financial Advisory
                 </span>
-                <span className="text-brand-muted">Jeda Plaza, 4th Floor</span>
+                <span className="text-brand-muted">Virtual &amp; Dedicated Support</span>
               </div>
             </div>
           </div>

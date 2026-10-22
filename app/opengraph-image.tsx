@@ -1,6 +1,6 @@
-﻿import { ImageResponse } from "next/og";
+import { ImageResponse } from "next/og";
 
-export const alt = "Imara Finance Partners - Professional Accounting in Nairobi";
+export const alt = "LedgerBridge - Global Accounting & Advisory";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -25,17 +25,16 @@ export default async function Image() {
         <div style={{ position: "absolute", bottom: -100, left: -60, width: 360, height: 360, borderRadius: "50%", background: "rgba(8,122,67,0.14)", display: "flex" }} />
 
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          <div style={{ width: 80, height: 80, borderRadius: 18, background: "#0D2925", border: "2px solid rgba(168,233,134,0.45)", display: "flex", alignItems: "flex-end", justifyContent: "flex-start", padding: "12px 14px", gap: 5, flexShrink: 0 }}>
-            <div style={{ width: 12, height: 18, borderRadius: 4, background: "#A8E986", display: "flex" }} />
-            <div style={{ width: 12, height: 30, borderRadius: 4, background: "#087A43", display: "flex" }} />
-            <div style={{ width: 12, height: 40, borderRadius: 4, background: "#D6B56D", display: "flex" }} />
+          <div style={{ width: 82, height: 82, borderRadius: 20, background: "#051A16", border: "2px solid #D6B56D", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+            <span style={{ fontSize: 36, fontWeight: 900, color: "#F6E8B1", letterSpacing: 2, display: "flex", lineHeight: 1 }}>LB</span>
+            <div style={{ width: 34, height: 3.5, borderRadius: 2, background: "#D6B56D", marginTop: 4, display: "flex" }} />
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontSize: 42, fontWeight: 900, letterSpacing: 3, color: "white", lineHeight: 1, display: "flex" }}>IMARA</span>
-            <span style={{ fontSize: 14, letterSpacing: 5, color: "#A8E986", textTransform: "uppercase", fontWeight: 600, marginTop: 6, display: "flex" }}>Finance Partners</span>
+            <span style={{ fontSize: 42, fontWeight: 900, letterSpacing: 3, color: "white", lineHeight: 1, display: "flex" }}>LEDGERBRIDGE</span>
+            <span style={{ fontSize: 14, letterSpacing: 5, color: "#E8CE8A", textTransform: "uppercase", fontWeight: 700, marginTop: 6, display: "flex" }}>Financial Partners</span>
           </div>
-          <div style={{ width: 6, height: 6, borderRadius: "50%", background: "rgba(168,233,134,0.45)", marginLeft: 12, display: "flex" }} />
-          <span style={{ fontSize: 15, color: "rgba(255,255,255,0.45)", display: "flex" }}>Nairobi, Kenya</span>
+          <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#D6B56D", marginLeft: 12, display: "flex" }} />
+          <span style={{ fontSize: 15, color: "rgba(255,255,255,0.55)", display: "flex" }}>Global Financial Advisory</span>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
@@ -43,13 +42,13 @@ export default async function Image() {
             <span style={{ fontSize: 56, fontWeight: 800, lineHeight: 1.13, color: "white", display: "flex" }}>Professional Accounting.</span>
             <span style={{ fontSize: 56, fontWeight: 800, lineHeight: 1.13, color: "#A8E986", display: "flex" }}>Stronger Financial Decisions.</span>
           </div>
-          <span style={{ fontSize: 22, color: "rgba(255,255,255,0.72)", maxWidth: 820, lineHeight: 1.5, display: "flex" }}>Bookkeeping · Tax Compliance · Payroll · eTIMS · Business Finance Advisory</span>
+          <span style={{ fontSize: 22, color: "rgba(255,255,255,0.72)", maxWidth: 820, lineHeight: 1.5, display: "flex" }}>Bookkeeping · Tax Compliance · Payroll · Financial Reporting · Advisory</span>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", borderTop: "1px solid rgba(168,233,134,0.2)", paddingTop: 28, fontSize: 15 }}>
-          <span style={{ color: "#A8E986", fontWeight: 500, display: "flex" }}>Jeda Plaza, 4th Floor, Roysambu, Nairobi</span>
+          <span style={{ color: "#A8E986", fontWeight: 500, display: "flex" }}>Remote &amp; On-Site Financial Solutions</span>
           <div style={{ display: "flex", alignItems: "center", background: "rgba(168,233,134,0.11)", border: "1px solid rgba(168,233,134,0.28)", borderRadius: 999, padding: "8px 22px" }}>
-            <span style={{ color: "#A8E986", fontWeight: 700, fontSize: 14, display: "flex" }}>Serving Kenyan Businesses</span>
+            <span style={{ color: "#A8E986", fontWeight: 700, fontSize: 14, display: "flex" }}>Serving Businesses Globally</span>
           </div>
         </div>
       </div>

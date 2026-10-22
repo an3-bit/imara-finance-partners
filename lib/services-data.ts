@@ -26,18 +26,18 @@ export const servicesData: ServiceItem[] = [
     shortDescription:
       "Maintain clear, organized financial records with structured bookkeeping and regular reconciliations.",
     fullDescription:
-      "Orderly financial records are the foundation of every stable enterprise. We help Kenyan businesses set up robust bookkeeping routines, record daily financial transactions accurately, reconcile banking and mobile-money channels, and produce clear periodic financial summaries.",
+      "Orderly financial records are the foundation of every stable enterprise. We help growing businesses set up robust bookkeeping routines, record daily financial transactions accurately, reconcile banking and payment channels, and produce clear periodic financial summaries.",
     iconName: "BookOpenCheck",
     deliverables: [
       "Recording and categorising business transactions with proper chart-of-accounts mapping.",
       "General ledger maintenance and period-end close routines.",
-      "Bank and mobile-money reconciliation, including M-Pesa paybills, tills, and business accounts.",
+      "Bank and payment platform reconciliation, including merchant accounts, tills, and business accounts.",
       "Accounts payable and receivable tracking to monitor cash flow.",
       "Monthly bookkeeping and catch-up bookkeeping for overdue or disorganized periods.",
       "Preparation of periodic trial balances and financial summaries.",
     ],
     keyHighlights: [
-      "Comprehensive bank and M-Pesa reconciliations",
+      "Comprehensive bank and payment platform reconciliations",
       "Catch-up support for overdue periods",
       "Clean transaction categorisation for reporting",
     ],
@@ -51,24 +51,24 @@ export const servicesData: ServiceItem[] = [
     shortDescription:
       "Get organized support for relevant tax filing processes, records, and compliance responsibilities.",
     fullDescription:
-      "Managing statutory obligations requires prompt recordkeeping and systematic preparation. We provide structured support to help Kenyan businesses organize their tax records, calculate applicable obligations, and prepare documentation in line with prevailing revenue guidelines.",
+      "Managing statutory obligations requires prompt recordkeeping and systematic preparation. We provide structured support to help businesses organize their tax records, calculate applicable obligations, and prepare documentation in line with prevailing revenue guidelines.",
     iconName: "FileCheck",
     deliverables: [
-      "Value Added Tax (VAT) computations and return preparation support.",
+      "Value Added Tax (VAT) / Sales tax computations and return preparation support.",
       "Pay As You Earn (PAYE) return calculations and employee deduction summaries.",
       "Withholding Tax calculations and certificate reconciliation.",
-      "Turnover Tax (TOT) support for eligible small enterprises.",
-      "Monthly Rental Income (MRI) tax computation and filing documentation for property owners.",
+      "Turnover Tax (TOT) and small enterprise tax support where applicable.",
+      "Rental income tax computation and filing documentation for property owners.",
       "Individual and corporate income tax preparation support.",
       "Tax records organization, ledger reconciliation, and routine compliance reviews.",
     ],
     keyHighlights: [
       "Support with VAT, PAYE, and Withholding Tax schedules",
-      "Structured Turnover Tax and Rental Income support",
+      "Structured turnover tax and rental income support",
       "Thorough reconciliation of tax ledgers against source records",
     ],
     scopeNote:
-      "Applicable obligations depend on the client's business circumstances and current Kenyan tax regulations. Filing support is defined within the agreed engagement scope. Imara Finance Partners provides professional accounting and compliance support; statutory tax obligations remain the legal responsibility of the taxpayer.",
+      "Applicable obligations depend on the client's business circumstances and applicable regulatory frameworks. Filing support is defined within the agreed engagement scope. LedgerBridge provides professional accounting and compliance support; statutory tax obligations remain the legal responsibility of the taxpayer.",
   },
   {
     id: "payroll-management",
@@ -84,16 +84,16 @@ export const servicesData: ServiceItem[] = [
       "Confidential payslip preparation and digital distribution.",
       "Comprehensive payroll summaries, department costing, and payroll reconciliations.",
       "PAYE calculation and return documentation support.",
-      "Support with applicable statutory processes: National Social Security Fund (NSSF), Social Health Authority (SHA), and Affordable Housing Levy (AHL).",
+      "Support with applicable statutory processes: social security funds, national health authorities, and statutory levies.",
       "Employee payroll records organization and leave/deduction tracking.",
     ],
     keyHighlights: [
-      "Accurate statutory schedules for PAYE, NSSF, SHA, and Housing Levy",
+      "Accurate statutory schedules for PAYE, social security, and health contributions",
       "Confidential payslips and employee documentation",
       "Clear payroll reconciliation reports for management",
     ],
     scopeNote:
-      "Statutory deduction rules and rates are aligned with current official Kenyan regulations. Official rate changes and legal updates are referenced directly from current gazetted sources.",
+      "Statutory deduction rules and rates are aligned with current official regulatory standards. Official rate changes and legal updates are referenced directly from official sources.",
   },
   {
     id: "financial-reporting-and-management-accounts",
@@ -124,14 +124,14 @@ export const servicesData: ServiceItem[] = [
   {
     id: "etims-and-accounting-systems-support",
     slug: "etims-and-accounting-systems-support",
-    title: "eTIMS and Accounting Systems Support",
+    title: "Digital Invoicing and Accounting Systems Support",
     shortDescription:
       "Improve the organization of electronic invoicing and accounting workflows.",
     fullDescription:
-      "The modernization of tax invoicing in Kenya through eTIMS makes system alignment essential. We assist businesses in structuring their invoicing workflows, reconciling sales records with electronic tax registers, and configuring reliable accounting software.",
+      "The modernization of digital tax invoicing and electronic accounting makes system alignment essential. We assist businesses in structuring their invoicing workflows, reconciling sales records with electronic registers, and configuring reliable accounting software.",
     iconName: "Receipt",
     deliverables: [
-      "eTIMS onboarding workflow guidance and operational readiness review.",
+      "Digital invoicing onboarding workflow guidance and operational readiness review.",
       "Electronic invoicing workflow alignment and branch/cashier invoice procedures.",
       "Reconciliation between internal sales records, POS systems, and electronic invoice registers.",
       "Setup assistance for modern cloud accounting software (e.g. QuickBooks, Zoho Books, Xero).",
@@ -139,12 +139,12 @@ export const servicesData: ServiceItem[] = [
       "Practical staff guidance on day-to-day invoicing and bookkeeping routines.",
     ],
     keyHighlights: [
-      "Step-by-step eTIMS workflow assistance for Kenyan businesses",
+      "Step-by-step electronic invoicing workflow assistance for modern enterprises",
       "Cloud accounting setup with customized chart-of-accounts",
       "Reconciliation of sales records against electronic invoicing data",
     ],
     scopeNote:
-      "Imara Finance Partners is an independent professional services firm. We are not affiliated with, nor do we claim official endorsement by, the Kenya Revenue Authority (KRA) or specific software vendors.",
+      "LedgerBridge is an independent professional services firm. We are not affiliated with, nor do we claim official endorsement by, government revenue authorities or specific software vendors.",
   },
   {
     id: "business-finance-and-advisory",

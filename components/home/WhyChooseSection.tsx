@@ -48,7 +48,7 @@ export default function WhyChooseSection() {
               >
                 <Image
                   src="/imara1.jpg"
-                  alt="Imara Finance Partners - Professional accounting and financial advisory"
+                  alt="LedgerBridge - Professional accounting and financial advisory"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
@@ -61,14 +61,14 @@ export default function WhyChooseSection() {
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-forest-dark/90 backdrop-blur-md border border-white/20 text-white">
                 <div className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-lg bg-brand-accent text-forest flex items-center justify-center font-bold text-sm">
-                    IFP
+                    LB
                   </div>
                   <div>
                     <h4 className="text-sm font-bold text-white">
                       Structured Financial Discipline
                     </h4>
                     <p className="text-xs text-gray-300">
-                      Helping Kenyan businesses operate with clarity & peace of mind.
+                      Helping businesses worldwide operate with clarity &amp; peace of mind.
                     </p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export default function WhyChooseSection() {
           <div className="lg:col-span-7 order-1 lg:order-2 space-y-6">
             <div className="space-y-3">
               <span className="text-xs font-bold uppercase tracking-widest text-brand-primary">
-                Why Imara Finance Partners
+                Why LedgerBridge
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-forest tracking-tight">
                 A Practical, Professional Approach to Your Finances

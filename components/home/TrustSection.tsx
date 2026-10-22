@@ -14,7 +14,7 @@ const features = [
     icon: ShieldAlert,
     title: "Compliance Support",
     description:
-      "Get practical support with relevant tax, payroll, invoicing, and statutory compliance processes aligned with prevailing Kenyan regulations.",
+      "Get practical support with relevant tax, payroll, invoicing, and statutory compliance processes aligned with prevailing regulatory frameworks.",
     badge: "Statutory Diligence",
   },
   {

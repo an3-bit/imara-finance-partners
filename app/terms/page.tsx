@@ -5,9 +5,9 @@ import { FileText, ArrowLeft, ShieldAlert } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Imara Finance Partners",
+  title: "Terms of Service | LedgerBridge",
   description:
-    "Terms of service, website usage disclaimer, and scope of engagement principles for Imara Finance Partners, Nairobi, Kenya.",
+    "Terms of service, website usage disclaimer, and scope of engagement principles for LedgerBridge.",
   alternates: {
     canonical: `${siteConfig.siteUrl}/terms`,
   },
@@ -38,8 +38,7 @@ export default function TermsPage() {
               Terms of Website Use & Service Scope
             </h1>
             <p className="text-xs text-brand-muted">
-              Last updated: October 2026 | Prepared for Imara Finance Partners,
-              Roysambu, Nairobi, Kenya
+              Last updated: October 2026 | Prepared for LedgerBridge
             </p>
           </div>
 
@@ -68,7 +67,7 @@ export default function TermsPage() {
               2. Nature of Professional Services & Distinctions
             </h2>
             <p>
-              Imara Finance Partners provides outsourced bookkeeping, accounting
+              LedgerBridge provides outsourced bookkeeping, accounting
               support, management accounts preparation, statutory tax filing
               support, and business finance advisory. Please note:
             </p>
@@ -89,7 +88,7 @@ export default function TermsPage() {
               <li>
                 <strong>Tax Compliance:</strong> Tax returns, computations, and
                 schedules are prepared based on client-supplied records and
-                current Kenyan tax regulations. The legal responsibility for
+                applicable regulatory standards. The legal responsibility for
                 tax declarations remains with the taxpayer.
               </li>
             </ul>
@@ -103,7 +102,7 @@ export default function TermsPage() {
             <p>
               All branding, text, layout structures, graphics, and logo
               treatments displayed on this website are the intellectual property
-              of Imara Finance Partners or used under appropriate license.
+              of LedgerBridge or used under appropriate license.
               Unauthorized reproduction, scraping, or duplication without
               prior written consent is prohibited.
             </p>
@@ -116,9 +115,9 @@ export default function TermsPage() {
             </h2>
             <p>
               While reasonable efforts are made to keep information on this
-              website accurate and up to date, Imara Finance Partners makes no
+              website accurate and up to date, LedgerBridge makes no
               warranties regarding the completeness or timeliness of general
-              website content. Imara Finance Partners shall not be liable for
+              website content. LedgerBridge shall not be liable for
               actions taken in reliance upon general website text prior to a
               formal written consultation and engagement.
             </p>
@@ -131,9 +130,8 @@ export default function TermsPage() {
             </h2>
             <p>
               These Terms and any dispute arising from the use of this website
-              shall be governed by and construed in accordance with the laws of
-              the Republic of Kenya, with exclusive jurisdiction in the courts
-              of Nairobi, Kenya.
+              shall be governed by and construed in accordance with applicable
+              laws, subject to the jurisdiction of competent courts.
             </p>
           </section>
         </div>

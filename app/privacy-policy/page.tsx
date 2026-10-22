@@ -5,9 +5,9 @@ import { ShieldCheck, Lock, AlertTriangle, ArrowLeft } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Imara Finance Partners",
+  title: "Privacy Policy | LedgerBridge",
   description:
-    "Privacy Policy and data confidentiality guidelines for visitors and prospective clients of Imara Finance Partners, Nairobi, Kenya.",
+    "Privacy Policy and data confidentiality guidelines for visitors and prospective clients of LedgerBridge.",
   alternates: {
     canonical: `${siteConfig.siteUrl}/privacy-policy`,
   },
@@ -38,8 +38,7 @@ export default function PrivacyPolicyPage() {
               Privacy & Data Confidentiality Notice
             </h1>
             <p className="text-xs text-brand-muted">
-              Last updated: October 2026 | Prepared for Imara Finance Partners,
-              Roysambu, Nairobi, Kenya
+              Last updated: October 2026 | Prepared for LedgerBridge
             </p>
           </div>
 
@@ -53,8 +52,8 @@ export default function PrivacyPolicyPage() {
               Contact form inquiries submitted via this website are intended
               solely for initial business communication and service scoping.{" "}
               <strong>
-                Never transmit confidential passwords, banking PIN codes, M-Pesa
-                PINs, Kenya Revenue Authority (iTax) login passwords, or
+                Never transmit confidential passwords, banking PIN codes,
+                revenue authority login credentials, or
                 unencrypted personal financial documents through web forms or
                 standard email.
               </strong>
@@ -117,7 +116,7 @@ export default function PrivacyPolicyPage() {
               3. Client Confidentiality
             </h2>
             <p>
-              Imara Finance Partners recognizes the sensitive nature of
+              LedgerBridge recognizes the sensitive nature of
               financial administration, bookkeeping, and payroll records. When an
               engagement agreement is entered into, all financial books, bank
               statements, and employee payroll details are governed by binding
@@ -125,17 +124,17 @@ export default function PrivacyPolicyPage() {
             </p>
           </section>
 
-          {/* Section 4: Data Protection in Kenya */}
+          {/* Section 4: Data Protection Principles */}
           <section className="space-y-3 text-sm text-brand-charcoal/85 leading-relaxed">
             <h2 className="text-lg font-bold text-forest">
-              4. Alignment with Kenyan Data Protection Principles
+              4. Alignment with Recognized Data Protection Principles
             </h2>
             <p>
-              We observe the principles set forth under the Kenya Data
-              Protection Act, 2019, including lawful processing, purpose
-              limitation, data minimization, accuracy, and storage limitation.
-              Visitors may request the deletion or correction of their contact
-              records by contacting our team.
+              We observe recognized data protection principles, including
+              lawful processing, purpose limitation, data minimization,
+              accuracy, and storage limitation. Visitors may request the
+              deletion or correction of their contact records by contacting our
+              team.
             </p>
           </section>
 
@@ -150,14 +149,12 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="p-4 rounded-xl bg-brand-ivory text-xs space-y-1 font-mono">
               <p>
-                <strong>Imara Finance Partners</strong>
-              </p>
-              <p>
-                Location: {siteConfig.address.building},{" "}
-                {siteConfig.address.floor}, {siteConfig.address.area}, Nairobi,
-                Kenya
+                <strong>LedgerBridge</strong>
               </p>
               <p>Email: {siteConfig.contact.email}</p>
+              <p className="font-sans text-brand-muted pt-1">
+                Formal inquiries may also be submitted via our Contact page.
+              </p>
             </div>
           </section>
         </div>

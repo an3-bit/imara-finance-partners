@@ -15,13 +15,13 @@ import ContactForm from "@/components/contact/ContactForm";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Contact Imara Finance Partners | Roysambu, Nairobi",
+  title: "Contact LedgerBridge | Global Accounting & Advisory",
   description:
-    "Get in touch with Imara Finance Partners in Roysambu, Nairobi for accounting, bookkeeping, tax compliance support, payroll, and business finance advisory.",
+    "Get in touch with LedgerBridge for professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory.",
   openGraph: {
-    title: "Contact Imara Finance Partners | Roysambu, Nairobi",
+    title: "Contact LedgerBridge | Global Accounting & Advisory",
     description:
-      "Office location at Jeda Plaza, 4th Floor, Roysambu, Nairobi. Submit an inquiry for bookkeeping, tax compliance, or payroll support.",
+      "Get in touch with our team for structured bookkeeping, tax compliance, payroll, and business advisory services. Virtual and in-person consultations available.",
     url: `${siteConfig.siteUrl}/contact`,
   },
   alternates: {
@@ -41,12 +41,12 @@ export default function ContactPage() {
               <span>Client Inquiries & Consultation</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Contact Imara Finance Partners
+              Contact LedgerBridge
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               Tell us about your business, transaction volume, or the specific
-              accounting support you require. We are based in Roysambu, Nairobi
-              and support enterprises across Kenya.
+              accounting support you require. We provide dedicated financial
+              management and advisory to growing enterprises worldwide.
             </p>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function ContactPage() {
                 <p className="text-xs text-gray-200 leading-relaxed">
                   We treat all prospective client communications with complete
                   confidentiality. Please note: Never transmit banking passwords,
-                  PIN codes, or iTax portal passwords through web inquiry forms.
+                  PIN codes, or tax portal passwords through web inquiry forms.
                 </p>
               </div>
             </div>

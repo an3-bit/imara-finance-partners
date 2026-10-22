@@ -78,7 +78,7 @@ export default function HeroSection() {
 
             <p className="text-base sm:text-lg text-white font-medium leading-relaxed max-w-xl drop-shadow-[0_1px_4px_rgba(0,0,0,0.75)]">
               Reliable accounting, tax compliance, payroll, and financial
-              advisory services designed to help Kenyan businesses stay
+              advisory services designed to help growing businesses worldwide stay
               organized, understand their numbers, and grow with confidence.
             </p>
 
@@ -115,7 +115,7 @@ export default function HeroSection() {
                 Payroll Management
               </span>
               <span className="px-3.5 py-1.5 rounded-full bg-forest/85 backdrop-blur-md border border-white/30 text-white font-semibold shadow-sm">
-                eTIMS Integration
+                Systems Integration
               </span>
             </div>
 
@@ -158,7 +158,7 @@ export default function HeroSection() {
                     <span>Clear Performance</span>
                   </div>
                   <p className="text-sm font-extrabold text-forest leading-snug">
-                    Small businesses see clearer books after partnering with Imara.
+                    Small businesses see clearer books after partnering with LEDGERBRIDGE.
                   </p>
                 </div>
                 <div className="pt-3 mt-3 border-t border-forest/25 text-xs font-bold text-forest">

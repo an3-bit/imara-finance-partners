@@ -50,10 +50,10 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <BrandLogo variant="light" />
             <p className="text-sm text-gray-300 leading-relaxed max-w-sm pt-2">
-              Imara Finance Partners provides structured accounting,
+              LedgerBridge provides structured accounting,
               bookkeeping, statutory tax compliance support, payroll, and
-              practical business finance advisory services to enterprises in
-              Kenya.
+              practical business finance advisory services to growing enterprises
+              worldwide.
             </p>
 
             <div className="pt-2 text-xs text-brand-accent font-medium tracking-wide">
@@ -171,8 +171,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <div className="text-center md:text-left">
             <p>
-              © {currentYear} {siteConfig.name}. All rights reserved. Registered
-              in Kenya.
+              © {currentYear} {siteConfig.name}. All rights reserved.
             </p>
             <p className="text-[11px] text-gray-400 mt-1 max-w-2xl">
               Professional accounting, bookkeeping, and business advisory services.

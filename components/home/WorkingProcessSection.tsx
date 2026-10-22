@@ -14,7 +14,7 @@ const steps = [
     icon: Search,
     title: "Review Your Records",
     description:
-      "We inspect the state of your existing books, bank/M-Pesa statements, and statutory schedules to understand historical data and initial cleanup needs.",
+      "We inspect the state of your existing books, bank/payment platform statements, and statutory schedules to understand historical data and initial cleanup needs.",
   },
   {
     step: "03",

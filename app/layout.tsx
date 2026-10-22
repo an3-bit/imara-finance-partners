@@ -20,21 +20,19 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "Imara Finance Partners | Accounting & Bookkeeping in Nairobi",
-    template: "%s | Imara Finance Partners",
+    default: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
+    template: "%s | LedgerBridge",
   },
   description:
-    "Professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory services for Kenyan businesses. Based in Roysambu, Nairobi.",
+    "Professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory services for growing enterprises worldwide.",
   keywords: [
-    "Accounting services in Nairobi",
-    "Bookkeeping services in Kenya",
-    "Outsourced accounting for SMEs",
-    "Tax compliance support in Kenya",
-    "Payroll services in Nairobi",
+    "Global accounting services",
+    "Outsourced bookkeeping for businesses",
+    "Tax compliance support",
+    "Payroll management services",
     "Financial reporting for small businesses",
-    "eTIMS support in Kenya",
     "Business accounting and advisory services",
-    "Accounting services in Roysambu",
+    "Cloud accounting systems integration",
   ],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
@@ -60,18 +58,18 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "en_KE",
+    locale: "en_US",
     url: siteConfig.siteUrl,
-    title: "Imara Finance Partners | Accounting & Bookkeeping in Nairobi",
+    title: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
     description:
-      "Reliable accounting, tax compliance, payroll, and financial advisory services designed to help Kenyan businesses stay organized, understand their numbers, and grow with confidence.",
+      "Reliable accounting, tax compliance, payroll, and financial advisory services designed to help businesses worldwide stay organized, understand their numbers, and grow with confidence.",
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Imara Finance Partners | Accounting & Bookkeeping in Nairobi",
+    title: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
     description:
-      "Professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory services in Nairobi, Kenya.",
+      "Professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory services for growing enterprises worldwide.",
   },
   alternates: {
     canonical: siteConfig.siteUrl,
@@ -88,19 +86,9 @@ export default function RootLayout({
     "@type": "AccountingService",
     name: siteConfig.name,
     description:
-      "Professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory services for Kenyan enterprises.",
+      "Professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory services for growing enterprises worldwide.",
     url: siteConfig.siteUrl,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: `${siteConfig.address.building}, ${siteConfig.address.floor}`,
-      addressLocality: siteConfig.address.area,
-      addressRegion: siteConfig.address.city,
-      addressCountry: "KE",
-    },
-    areaServed: {
-      "@type": "Country",
-      name: "Kenya",
-    },
+    areaServed: "Worldwide",
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",

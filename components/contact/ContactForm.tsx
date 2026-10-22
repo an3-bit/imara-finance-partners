@@ -98,7 +98,7 @@ export default function ContactForm() {
       }`
     );
 
-    const bodyText = `Dear Imara Finance Partners Team,
+    const bodyText = `Dear LedgerBridge Team,
 
 I would like to inquire about accounting and financial services for my business.
 
@@ -113,8 +113,7 @@ Brief Description of Support Needed:
 ${formData.description}
 
 ---
-Inquiry submitted via Imara Finance Partners website (Frontend Inquiry Flow)
-Location: Roysambu, Nairobi, Kenya
+Inquiry submitted via LedgerBridge website (Global Client Inquiry Flow)
 `;
 
     const body = encodeURIComponent(bodyText);
@@ -345,7 +344,7 @@ Location: Roysambu, Nairobi, Kenya
             />
             <span className="text-xs text-brand-charcoal/80 leading-relaxed">
               I acknowledge that this inquiry will open my device email
-              application with pre-filled details to send to Imara Finance
+              application with pre-filled details to send to LEDGERBRIDGE Finance
               Partners, and I agree to the website{" "}
               <a
                 href="/privacy-policy"

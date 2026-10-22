@@ -18,13 +18,13 @@ import {
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "About Imara Finance Partners | Business Accounting in Kenya",
+  title: "About LedgerBridge | Global Business Accounting & Advisory",
   description:
-    "Learn about Imara Finance Partners, our mission, vision, values, and practical approach to business accounting and financial advisory in Nairobi, Kenya.",
+    "Learn about LedgerBridge, our mission, vision, values, and practical approach to business accounting and financial advisory for enterprises worldwide.",
   openGraph: {
-    title: "About Imara Finance Partners | Business Accounting in Kenya",
+    title: "About LedgerBridge | Global Business Accounting & Advisory",
     description:
-      "A proposed Kenyan accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm based in Roysambu, Nairobi.",
+      "A professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm serving growing businesses globally.",
     url: `${siteConfig.siteUrl}/about`,
   },
   alternates: {
@@ -60,7 +60,7 @@ const coreValues = [
   {
     title: "Practical Problem-Solving",
     description:
-      "Developing actionable, real-world solutions that fit the realities of Kenyan business operations.",
+      "Developing actionable, real-world solutions that fit the realities of modern business operations.",
     icon: Target,
   },
   {
@@ -86,10 +86,10 @@ export default function AboutPage() {
               A Clearer Approach to Business Accounting
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
-              Imara Finance Partners is being developed to provide practical
+              LedgerBridge is being developed to provide practical
               accounting, bookkeeping, tax compliance support, payroll
-              management, and financial advisory services to businesses in
-              Kenya.
+              management, and financial advisory services to growing businesses
+              worldwide.
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
                 Our Purpose
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold text-forest tracking-tight">
-                Supporting Kenyan Enterprises with Financial Clarity
+                Supporting Growing Enterprises with Financial Clarity
               </h2>
               <div className="space-y-4 text-sm sm:text-base text-brand-charcoal/85 leading-relaxed">
                 <p>
@@ -114,8 +114,8 @@ export default function AboutPage() {
                 </p>
                 <p>
                   Too many growing enterprises struggle with fragmented records,
-                  unreconciled bank and M-Pesa accounts, and last-minute statutory
-                  panics. Imara Finance Partners establishes structured routines
+                  unreconciled bank and payment gateway accounts, and last-minute statutory
+                  panics. LedgerBridge establishes structured routines
                   so management always has dependable information at their
                   fingertips.
                 </p>
@@ -123,7 +123,7 @@ export default function AboutPage() {
                   As an independent professional services firm, we intend to
                   engage appropriately qualified accounting professionals to
                   deliver coordinated, high-standard support directly to clients
-                  across Kenya.
+                  worldwide.
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function AboutPage() {
                 </h3>
                 <blockquote className="text-xl sm:text-2xl font-bold leading-snug text-forest">
                   “To become a trusted accounting and business finance partner
-                  for Kenyan enterprises.”
+                  for ambitious enterprises worldwide.”
                 </blockquote>
               </div>
               <div className="pt-6 mt-6 border-t border-brand-border/60 text-xs text-brand-muted">
@@ -304,28 +304,27 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Office Location & Contact CTA */}
+      {/* Global Advisory & Consultation CTA */}
       <section className="py-20 bg-forest text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-8 space-y-4">
               <span className="text-xs font-bold uppercase tracking-widest text-brand-accent">
-                Physical Office Location
+                Global Advisory &amp; Support
               </span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
-                Based in Roysambu, Nairobi
+                Empowering Enterprises Worldwide
               </h2>
               <div className="space-y-1 text-base sm:text-lg text-white/95">
                 <p className="font-semibold text-white">
                   {siteConfig.name}
                 </p>
-                <p>{siteConfig.address.building}, {siteConfig.address.floor}</p>
-                <p>{siteConfig.address.area}, Nairobi, Kenya</p>
+                <p>Virtual &amp; On-Site Strategic Finance Advisory</p>
+                <p className="text-sm text-brand-accent font-medium">Serving Clients Across Global Markets</p>
               </div>
               <p className="text-xs sm:text-sm text-white/80 max-w-xl pt-2">
-                In-person consultations are arranged by appointment. Please
-                contact our team to discuss your business accounting support
-                needs.
+                Consultations are arranged both virtually and in-person by appointment. Please
+                reach out to our team to discuss your business accounting and compliance requirements.
               </p>
             </div>
 
@@ -338,16 +337,13 @@ export default function AboutPage() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
 
-              <a
-                href={siteConfig.maps.googleMapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/services"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full text-sm font-medium text-white border border-white/25 hover:bg-white/10 transition-colors"
               >
-                <MapPin className="w-4 h-4 text-brand-accent" />
-                <span>Open in Google Maps</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+                <span>Explore All Services</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
             </div>
           </div>
         </div>
