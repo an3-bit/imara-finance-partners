@@ -21,11 +21,11 @@ import { servicesData } from "@/lib/services-data";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Accounting, Tax & Financial Advisory Services | LedgerBridge",
+  title: "Accounting, Tax & Financial Advisory Services | LedgerBridge Accountants",
   description:
     "Comprehensive accounting, bookkeeping, tax compliance support, payroll management, systems alignment, and financial advisory for growing businesses worldwide.",
   openGraph: {
-    title: "Accounting, Tax & Financial Advisory Services | LedgerBridge",
+    title: "Accounting, Tax & Financial Advisory Services | LedgerBridge Accountants",
     description:
       "Structured accounting, bookkeeping, tax compliance, payroll, and business finance advisory services for enterprises globally.",
     url: `${siteConfig.siteUrl}/services`,
@@ -131,7 +131,7 @@ export default function ServicesPage() {
                     <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden border border-brand-border shadow-md">
                       <Image
                         src={`/services/${service.id}${imgExt}`}
-                        alt={`${service.title} - LedgerBridge`}
+                        alt={`${service.title} - LedgerBridge Accountants`}
                         fill
                         sizes="(max-width: 1024px) 100vw, 40vw"
                         className="object-cover object-center transition-transform duration-500 hover:scale-105"

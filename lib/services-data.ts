@@ -68,7 +68,7 @@ export const servicesData: ServiceItem[] = [
       "Thorough reconciliation of tax ledgers against source records",
     ],
     scopeNote:
-      "Applicable obligations depend on the client's business circumstances and applicable regulatory frameworks. Filing support is defined within the agreed engagement scope. LedgerBridge provides professional accounting and compliance support; statutory tax obligations remain the legal responsibility of the taxpayer.",
+      "Applicable obligations depend on the client's business circumstances and applicable regulatory frameworks. Filing support is defined within the agreed engagement scope. LedgerBridge Accountants provides professional accounting and compliance support; statutory tax obligations remain the legal responsibility of the taxpayer.",
   },
   {
     id: "payroll-management",
@@ -144,7 +144,7 @@ export const servicesData: ServiceItem[] = [
       "Reconciliation of sales records against electronic invoicing data",
     ],
     scopeNote:
-      "LedgerBridge is an independent professional services firm. We are not affiliated with, nor do we claim official endorsement by, government revenue authorities or specific software vendors.",
+      "LedgerBridge Accountants is an independent professional services firm. We are not affiliated with, nor do we claim official endorsement by, government revenue authorities or specific software vendors.",
   },
   {
     id: "business-finance-and-advisory",

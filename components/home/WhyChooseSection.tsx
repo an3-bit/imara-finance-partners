@@ -48,7 +48,7 @@ export default function WhyChooseSection() {
               >
                 <Image
                   src="/imara1.jpg"
-                  alt="LedgerBridge - Professional accounting and financial advisory"
+                  alt="LedgerBridge Accountants - Professional accounting and financial advisory"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
@@ -80,7 +80,7 @@ export default function WhyChooseSection() {
           <div className="lg:col-span-7 order-1 lg:order-2 space-y-6">
             <div className="space-y-3">
               <span className="text-xs font-bold uppercase tracking-widest text-brand-primary">
-                Why LedgerBridge
+                Why LedgerBridge Accountants
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-forest tracking-tight">
                 A Practical, Professional Approach to Your Finances

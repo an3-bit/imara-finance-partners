@@ -5,9 +5,9 @@ import { FileText, ArrowLeft, ShieldAlert } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | LedgerBridge",
+  title: "Terms of Service | LedgerBridge Accountants",
   description:
-    "Terms of service, website usage disclaimer, and scope of engagement principles for LedgerBridge.",
+    "Terms of service, website usage disclaimer, and scope of engagement principles for LedgerBridge Accountants.",
   alternates: {
     canonical: `${siteConfig.siteUrl}/terms`,
   },
@@ -38,7 +38,7 @@ export default function TermsPage() {
               Terms of Website Use & Service Scope
             </h1>
             <p className="text-xs text-brand-muted">
-              Last updated: October 2026 | Prepared for LedgerBridge
+              Last updated: October 2026 | Prepared for LedgerBridge Accountants
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function TermsPage() {
               2. Nature of Professional Services & Distinctions
             </h2>
             <p>
-              LedgerBridge provides outsourced bookkeeping, accounting
+              LedgerBridge Accountants provides outsourced bookkeeping, accounting
               support, management accounts preparation, statutory tax filing
               support, and business finance advisory. Please note:
             </p>
@@ -102,7 +102,7 @@ export default function TermsPage() {
             <p>
               All branding, text, layout structures, graphics, and logo
               treatments displayed on this website are the intellectual property
-              of LedgerBridge or used under appropriate license.
+              of LedgerBridge Accountants or used under appropriate license.
               Unauthorized reproduction, scraping, or duplication without
               prior written consent is prohibited.
             </p>
@@ -115,9 +115,9 @@ export default function TermsPage() {
             </h2>
             <p>
               While reasonable efforts are made to keep information on this
-              website accurate and up to date, LedgerBridge makes no
+              website accurate and up to date, LedgerBridge Accountants makes no
               warranties regarding the completeness or timeliness of general
-              website content. LedgerBridge shall not be liable for
+              website content. LedgerBridge Accountants shall not be liable for
               actions taken in reliance upon general website text prior to a
               formal written consultation and engagement.
             </p>

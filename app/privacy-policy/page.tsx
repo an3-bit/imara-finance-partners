@@ -5,9 +5,9 @@ import { ShieldCheck, Lock, AlertTriangle, ArrowLeft } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | LedgerBridge",
+  title: "Privacy Policy | LedgerBridge Accountants",
   description:
-    "Privacy Policy and data confidentiality guidelines for visitors and prospective clients of LedgerBridge.",
+    "Privacy Policy and data confidentiality guidelines for visitors and prospective clients of LedgerBridge Accountants.",
   alternates: {
     canonical: `${siteConfig.siteUrl}/privacy-policy`,
   },
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
               Privacy & Data Confidentiality Notice
             </h1>
             <p className="text-xs text-brand-muted">
-              Last updated: October 2026 | Prepared for LedgerBridge
+              Last updated: October 2026 | Prepared for LedgerBridge Accountants
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
               <li>Your full name and professional title.</li>
               <li>Your organization or business name.</li>
-              <li>Your contact email address and telephone number.</li>
+              <li>Your contact email address.</li>
               <li>
                 Your selected service area of interest and a high-level summary
                 of your accounting or advisory needs.
@@ -116,7 +116,7 @@ export default function PrivacyPolicyPage() {
               3. Client Confidentiality
             </h2>
             <p>
-              LedgerBridge recognizes the sensitive nature of
+              LedgerBridge Accountants recognizes the sensitive nature of
               financial administration, bookkeeping, and payroll records. When an
               engagement agreement is entered into, all financial books, bank
               statements, and employee payroll details are governed by binding
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="p-4 rounded-xl bg-brand-ivory text-xs space-y-1 font-mono">
               <p>
-                <strong>LedgerBridge</strong>
+                <strong>LedgerBridge Accountants</strong>
               </p>
               <p>Email: {siteConfig.contact.email}</p>
               <p className="font-sans text-brand-muted pt-1">

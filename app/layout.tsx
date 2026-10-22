@@ -20,8 +20,8 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
-    template: "%s | LedgerBridge",
+    default: "LedgerBridge Accountants | Global Accounting, Bookkeeping & Advisory",
+    template: "%s | LedgerBridge Accountants",
   },
   description:
     "Professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory services for growing enterprises worldwide.",
@@ -40,7 +40,6 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "any" },
     ],
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
@@ -60,14 +59,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.siteUrl,
-    title: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
+    title: "LedgerBridge Accountants | Global Accounting, Bookkeeping & Advisory",
     description:
       "Reliable accounting, tax compliance, payroll, and financial advisory services designed to help businesses worldwide stay organized, understand their numbers, and grow with confidence.",
     siteName: siteConfig.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: "LedgerBridge | Global Accounting, Bookkeeping & Advisory",
+    title: "LedgerBridge Accountants | Global Accounting, Bookkeeping & Advisory",
     description:
       "Professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory services for growing enterprises worldwide.",
   },

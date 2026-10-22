@@ -14,10 +14,10 @@ export interface SiteConfig {
   contact: {
     email: string;
     isEmailPlaceholder: boolean;
-    phone: string;
-    isPhonePlaceholder: boolean;
-    whatsapp: string;
-    isWhatsAppConfigured: boolean;
+    phone?: string;
+    isPhonePlaceholder?: boolean;
+    whatsapp?: string;
+    isWhatsAppConfigured?: boolean;
   };
   maps: {
     googleMapsUrl: string;
@@ -28,7 +28,7 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "LedgerBridge",
+  name: "LedgerBridge Accountants",
   legalEntityNote:
     "A professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm.",
   tagline: "Professional Accounting. Stronger Financial Decisions.",
@@ -42,13 +42,9 @@ export const siteConfig: SiteConfig = {
     fullFormatted: "Jeda Plaza, 4th Floor, Roysambu, Nairobi, Kenya",
   },
   contact: {
-    // Configurable placeholders until official business accounts are supplied
-    email: "info@ledgerbridge.com",
-    isEmailPlaceholder: true,
-    phone: "+254 700 000 000",
-    isPhonePlaceholder: true,
-    whatsapp: "+254 700 000 000",
-    isWhatsAppConfigured: false,
+    // Configured business email address
+    email: "info@ledgerbridgeaccountants.com",
+    isEmailPlaceholder: false,
   },
   maps: {
     searchQuery: "Jeda Plaza, Roysambu, Nairobi",

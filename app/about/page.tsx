@@ -18,11 +18,11 @@ import {
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "About LedgerBridge | Global Business Accounting & Advisory",
+  title: "About LedgerBridge Accountants | Global Business Accounting & Advisory",
   description:
-    "Learn about LedgerBridge, our mission, vision, values, and practical approach to business accounting and financial advisory for enterprises worldwide.",
+    "Learn about LedgerBridge Accountants, our mission, vision, values, and practical approach to business accounting and financial advisory for enterprises worldwide.",
   openGraph: {
-    title: "About LedgerBridge | Global Business Accounting & Advisory",
+    title: "About LedgerBridge Accountants | Global Business Accounting & Advisory",
     description:
       "A professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm serving growing businesses globally.",
     url: `${siteConfig.siteUrl}/about`,
@@ -86,7 +86,7 @@ export default function AboutPage() {
               A Clearer Approach to Business Accounting
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
-              LedgerBridge is being developed to provide practical
+              LedgerBridge Accountants is being developed to provide practical
               accounting, bookkeeping, tax compliance support, payroll
               management, and financial advisory services to growing businesses
               worldwide.
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 <p>
                   Too many growing enterprises struggle with fragmented records,
                   unreconciled bank and payment gateway accounts, and last-minute statutory
-                  panics. LedgerBridge establishes structured routines
+                  panics. LedgerBridge Accountants establishes structured routines
                   so management always has dependable information at their
                   fingertips.
                 </p>
@@ -188,7 +188,7 @@ export default function AboutPage() {
                   Our Vision
                 </h3>
                 <blockquote className="text-xl sm:text-2xl font-bold leading-snug text-forest">
-                  “To become a trusted accounting and business finance partner
+                  “To become trusted accountants and business advisors
                   for ambitious enterprises worldwide.”
                 </blockquote>
               </div>
@@ -292,7 +292,7 @@ export default function AboutPage() {
                 03
               </div>
               <h3 className="text-base font-bold text-forest mb-2">
-                Confidential Partnership
+                Confidential Accounting &amp; Discretion
               </h3>
               <p className="text-xs sm:text-sm text-brand-charcoal/80 leading-relaxed">
                 Your business records and sensitive financial movements are

@@ -12,16 +12,16 @@ export default function AboutPreviewSection() {
           {/* Left Column: Firm Story */}
           <div className="lg:col-span-7 space-y-6">
             <span className="text-xs font-bold uppercase tracking-widest text-brand-primary">
-              About LedgerBridge
+              About LedgerBridge Accountants
             </span>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-forest tracking-tight">
-              A Reliable Finance Partner for Your Business
+              Reliable Accountants for Your Business
             </h2>
 
             <div className="space-y-4 text-sm sm:text-base text-brand-charcoal/85 leading-relaxed">
               <p>
-                LedgerBridge is established to provide accessible,
+                LedgerBridge Accountants is established to provide accessible,
                 structured accounting, bookkeeping, tax compliance support,
                 payroll management, and practical financial advisory to
                 growing businesses worldwide.

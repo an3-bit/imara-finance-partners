@@ -102,7 +102,7 @@ export default function WhoWeServeSection() {
           <div className="p-6 rounded-2xl bg-forest text-white flex flex-col justify-between border border-forest-light">
             <div className="space-y-3">
               <span className="text-xs font-bold uppercase tracking-wider text-brand-accent">
-                Outsourced Finance Partner
+                Dedicated Accountants
               </span>
               <h3 className="text-xl font-bold text-white tracking-tight">
                 Not sure if your business model fits?

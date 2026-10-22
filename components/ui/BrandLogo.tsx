@@ -19,16 +19,16 @@ export default function BrandLogo({
     <Link
       href="/"
       className={`inline-flex items-center gap-3.5 group transition-all duration-200 hover:opacity-95 ${className}`}
-      aria-label="LedgerBridge - Home"
+      aria-label="LedgerBridge Accountants - Home"
     >
-      {/* LB Bridge Gold Emblem Badge */}
-      <div className="relative w-11 h-11 flex-shrink-0 rounded-xl overflow-hidden shadow-md border border-[#D6B56D]/60 group-hover:border-[#F6E8B1] group-hover:scale-105 transition-all bg-[#061A16] flex items-center justify-center">
+      {/* LedgerBridge Logo Emblem */}
+      <div className="relative w-12 h-12 flex-shrink-0 rounded-xl overflow-hidden shadow-md border border-[#D6B56D]/60 group-hover:border-[#F6E8B1] group-hover:scale-105 transition-all bg-[#061A16] flex items-center justify-center">
         <Image
-          src="/ledgerbridge-logo.jpg"
-          alt="LedgerBridge Gold LB Logo"
+          src="/ledgerbridge-accountants-logo.jpg"
+          alt="LedgerBridge Accountants Logo"
           fill
-          sizes="44px"
-          className="object-cover object-center scale-[1.35] -translate-y-0.5"
+          sizes="48px"
+          className="object-cover"
           priority
         />
       </div>
@@ -43,11 +43,11 @@ export default function BrandLogo({
           LEDGERBRIDGE
         </span>
         <span
-          className={`text-[9.5px] uppercase tracking-[0.24em] font-bold leading-none mt-1 ${
+          className={`text-[9.5px] uppercase tracking-[0.28em] font-extrabold leading-none mt-1 ${
             isLight ? "text-[#E8CE8A]" : "text-[#B88E3E]"
           }`}
         >
-          Financial Partners
+          ACCOUNTANTS
         </span>
         {showTagline && (
           <span

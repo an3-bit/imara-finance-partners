@@ -98,7 +98,7 @@ export default function ContactForm() {
       }`
     );
 
-    const bodyText = `Dear LedgerBridge Team,
+    const bodyText = `Dear LedgerBridge Accountants Team,
 
 I would like to inquire about accounting and financial services for my business.
 
@@ -113,7 +113,7 @@ Brief Description of Support Needed:
 ${formData.description}
 
 ---
-Inquiry submitted via LedgerBridge website (Global Client Inquiry Flow)
+Inquiry submitted via LedgerBridge Accountants website (Global Client Inquiry Flow)
 `;
 
     const body = encodeURIComponent(bodyText);
@@ -212,7 +212,7 @@ Inquiry submitted via LedgerBridge website (Global Client Inquiry Flow)
               onChange={(e) =>
                 setFormData({ ...formData, email: e.target.value })
               }
-              placeholder="e.g. grace@company.co.ke"
+              placeholder="e.g. alex@company.com"
               className={`w-full px-4 py-3 rounded-xl border text-sm text-brand-charcoal bg-brand-ivory/40 focus:bg-white focus:outline-none focus:ring-2 ${
                 errors.email
                   ? "border-red-400 focus:ring-red-200"
@@ -245,7 +245,7 @@ Inquiry submitted via LedgerBridge website (Global Client Inquiry Flow)
               onChange={(e) =>
                 setFormData({ ...formData, phone: e.target.value })
               }
-              placeholder="e.g. +254 712 345 678"
+              placeholder="e.g. +1 (555) 019-2834"
               className="w-full px-4 py-3 rounded-xl border border-brand-border text-sm text-brand-charcoal bg-brand-ivory/40 focus:bg-white focus:outline-none focus:ring-2 focus:border-brand-primary focus:ring-brand-primary/20"
             />
           </div>
@@ -344,8 +344,8 @@ Inquiry submitted via LedgerBridge website (Global Client Inquiry Flow)
             />
             <span className="text-xs text-brand-charcoal/80 leading-relaxed">
               I acknowledge that this inquiry will open my device email
-              application with pre-filled details to send to LEDGERBRIDGE Finance
-              Partners, and I agree to the website{" "}
+              application with pre-filled details to send to LedgerBridge
+              Accountants, and I agree to the website{" "}
               <a
                 href="/privacy-policy"
                 target="_blank"

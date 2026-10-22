@@ -3,7 +3,6 @@ import Link from "next/link";
 import {
   MapPin,
   Mail,
-  Phone,
   Clock,
   ArrowUpRight,
   ShieldCheck,
@@ -50,7 +49,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <BrandLogo variant="light" />
             <p className="text-sm text-gray-300 leading-relaxed max-w-sm pt-2">
-              LedgerBridge provides structured accounting,
+              LedgerBridge Accountants provides structured accounting,
               bookkeeping, statutory tax compliance support, payroll, and
               practical business finance advisory services to growing enterprises
               worldwide.
@@ -70,17 +69,6 @@ export default function Footer() {
                 <span className="font-mono text-xs">
                   {siteConfig.contact.email}
                   {siteConfig.contact.isEmailPlaceholder && (
-                    <span className="ml-2 text-[10px] text-gray-400 border border-white/20 rounded px-1.5 py-0.5">
-                      Configurable
-                    </span>
-                  )}
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-brand-accent flex-shrink-0" />
-                <span className="font-mono text-xs">
-                  {siteConfig.contact.phone}
-                  {siteConfig.contact.isPhonePlaceholder && (
                     <span className="ml-2 text-[10px] text-gray-400 border border-white/20 rounded px-1.5 py-0.5">
                       Configurable
                     </span>

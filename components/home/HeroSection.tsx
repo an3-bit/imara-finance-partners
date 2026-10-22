@@ -158,7 +158,7 @@ export default function HeroSection() {
                     <span>Clear Performance</span>
                   </div>
                   <p className="text-sm font-extrabold text-forest leading-snug">
-                    Small businesses see clearer books after partnering with LEDGERBRIDGE.
+                    Small businesses see clearer books with LEDGERBRIDGE ACCOUNTANTS.
                   </p>
                 </div>
                 <div className="pt-3 mt-3 border-t border-forest/25 text-xs font-bold text-forest">

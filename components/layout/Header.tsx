@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, ArrowRight, PhoneCall } from "lucide-react";
+import { Menu, X, ArrowRight, Globe } from "lucide-react";
 import BrandLogo from "@/components/ui/BrandLogo";
 import { siteConfig } from "@/lib/config";
 
@@ -145,7 +145,7 @@ export default function Header() {
               </Link>
               <div className="mt-3 text-center">
                 <span className="text-xs text-brand-muted flex items-center justify-center gap-1.5">
-                  <PhoneCall className="w-3.5 h-3.5 text-brand-primary" />
+                  <Globe className="w-3.5 h-3.5 text-brand-primary" />
                   Serving Clients Globally | Virtual &amp; On-Site Consultations
                 </span>
               </div>

@@ -3,23 +3,21 @@ import type { Metadata } from "next";
 import {
   MapPin,
   Mail,
-  Phone,
   Clock,
   ExternalLink,
   ShieldCheck,
   Building,
-  MessageSquare,
   HelpCircle,
 } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Contact LedgerBridge | Global Accounting & Advisory",
+  title: "Contact LedgerBridge Accountants | Global Accounting & Advisory",
   description:
-    "Get in touch with LedgerBridge for professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory.",
+    "Get in touch with LedgerBridge Accountants for professional accounting, bookkeeping, tax compliance support, payroll, and business finance advisory.",
   openGraph: {
-    title: "Contact LedgerBridge | Global Accounting & Advisory",
+    title: "Contact LedgerBridge Accountants | Global Accounting & Advisory",
     description:
       "Get in touch with our team for structured bookkeeping, tax compliance, payroll, and business advisory services. Virtual and in-person consultations available.",
     url: `${siteConfig.siteUrl}/contact`,
@@ -41,7 +39,7 @@ export default function ContactPage() {
               <span>Client Inquiries & Consultation</span>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Contact LedgerBridge
+              Contact LedgerBridge Accountants
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
               Tell us about your business, transaction volume, or the specific
@@ -127,47 +125,6 @@ export default function ContactPage() {
                         <span className="text-[10px] text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded mt-1 inline-block">
                           Configurable placeholder
                         </span>
-                      )}
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Phone className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="font-semibold text-forest">Telephone Support</p>
-                      <p className="font-mono text-xs text-brand-charcoal">
-                        {siteConfig.contact.phone}
-                      </p>
-                      {siteConfig.contact.isPhonePlaceholder && (
-                        <span className="text-[10px] text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded mt-1 inline-block">
-                          Configurable placeholder
-                        </span>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* WhatsApp Support Status */}
-                  <div className="flex items-start gap-3">
-                    <MessageSquare className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="font-semibold text-forest">WhatsApp Inquiries</p>
-                      {siteConfig.contact.isWhatsAppConfigured ? (
-                        <a
-                          href={`https://wa.me/${siteConfig.contact.whatsapp.replace(
-                            /\D/g,
-                            ""
-                          )}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-mono text-xs text-brand-primary underline"
-                        >
-                          Chat on WhatsApp
-                        </a>
-                      ) : (
-                        <p className="text-xs text-brand-muted">
-                          Official WhatsApp channel will be activated upon phone
-                          line verification.
-                        </p>
                       )}
                     </div>
                   </div>
