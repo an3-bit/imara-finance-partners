@@ -21,7 +21,7 @@ export default function AboutPreviewSection() {
 
             <div className="space-y-4 text-sm sm:text-base text-brand-charcoal/85 leading-relaxed">
               <p>
-                LedgerBridge Accountants is established to provide accessible,
+                LedgerBridge Accountants is a company that provides accessible,
                 structured accounting, bookkeeping, tax compliance support,
                 payroll management, and practical financial advisory to
                 growing businesses worldwide.

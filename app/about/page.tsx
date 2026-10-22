@@ -86,7 +86,7 @@ export default function AboutPage() {
               A Clearer Approach to Business Accounting
             </h1>
             <p className="text-base sm:text-lg text-white/95 font-normal leading-relaxed">
-              LedgerBridge Accountants is being developed to provide practical
+              LedgerBridge Accountants is a company that provides practical
               accounting, bookkeeping, tax compliance support, payroll
               management, and financial advisory services to growing businesses
               worldwide.
@@ -120,10 +120,9 @@ export default function AboutPage() {
                   fingertips.
                 </p>
                 <p>
-                  As an independent professional services firm, we intend to
-                  engage appropriately qualified accounting professionals to
-                  deliver coordinated, high-standard support directly to clients
-                  worldwide.
+                  As an independent professional services firm, we engage
+                  qualified accounting professionals to deliver coordinated,
+                  high-standard support directly to clients worldwide.
                 </p>
               </div>
             </div>
