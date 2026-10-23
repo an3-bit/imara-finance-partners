@@ -1,12 +1,9 @@
 import React, { Suspense } from "react";
 import type { Metadata } from "next";
 import {
-  MapPin,
   Mail,
   Clock,
-  ExternalLink,
   ShieldCheck,
-  Building,
   HelpCircle,
 } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
@@ -19,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact LedgerBridge Accountants | Global Accounting & Advisory",
     description:
-      "Get in touch with our team for structured bookkeeping, tax compliance, payroll, and business advisory services. Virtual and in-person consultations available.",
+      "Get in touch with our team for structured bookkeeping, tax compliance, payroll, and business advisory services. Virtual consultations and advisory available worldwide.",
     url: `${siteConfig.siteUrl}/contact`,
   },
   alternates: {
@@ -69,58 +66,35 @@ export default function ContactPage() {
               </Suspense>
             </div>
 
-            {/* Right Column: Contact Details, Address Card, Map Information */}
+            {/* Right Column: Contact Details & Inquiries */}
             <div className="lg:col-span-5 space-y-6">
-              {/* Office Details Card */}
+              {/* Direct Inquiries Card */}
               <div className="bg-white rounded-3xl p-6 sm:p-8 border border-brand-border/80 shadow-sm space-y-6">
                 <div className="flex items-center gap-3 border-b border-brand-border/60 pb-4">
                   <div className="w-10 h-10 rounded-xl bg-forest text-brand-accent flex items-center justify-center">
-                    <Building className="w-5 h-5" />
+                    <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <h2 className="text-base font-bold text-forest">
-                      Office Location
+                      Direct Inquiries
                     </h2>
                     <span className="text-xs text-brand-muted">
-                      In-person visits by appointment
+                      Serving businesses globally &amp; remotely
                     </span>
                   </div>
                 </div>
 
                 <div className="space-y-4 text-sm">
                   <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="font-semibold text-forest">
-                        {siteConfig.name}
-                      </p>
-                      <p className="text-brand-charcoal/90">
-                        {siteConfig.address.building},{" "}
-                        {siteConfig.address.floor}
-                      </p>
-                      <p className="text-brand-charcoal/90">
-                        {siteConfig.address.area}, Nairobi, Kenya
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="font-semibold text-forest">Operating Hours</p>
-                      <p className="text-brand-charcoal/90 text-xs">
-                        {siteConfig.businessHours}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
                     <Mail className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-semibold text-forest">General Inquiries</p>
-                      <p className="font-mono text-xs text-brand-charcoal">
+                      <p className="font-semibold text-forest">General &amp; Client Inquiries</p>
+                      <a
+                        href={`mailto:${siteConfig.contact.email}`}
+                        className="font-mono text-sm text-brand-primary hover:underline font-medium block mt-0.5"
+                      >
                         {siteConfig.contact.email}
-                      </p>
+                      </a>
                       {siteConfig.contact.isEmailPlaceholder && (
                         <span className="text-[10px] text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded mt-1 inline-block">
                           Configurable placeholder
@@ -128,23 +102,29 @@ export default function ContactPage() {
                       )}
                     </div>
                   </div>
+
+                  <div className="flex items-start gap-3">
+                    <Clock className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="font-semibold text-forest">Operating Hours</p>
+                      <p className="text-brand-charcoal/90 text-xs mt-0.5">
+                        {siteConfig.businessHours}
+                      </p>
+                    </div>
+                  </div>
                 </div>
 
-                {/* Google Maps External Link Panel */}
+                {/* Direct Email Action Button */}
                 <div className="pt-4 border-t border-brand-border/60">
                   <a
-                    href={siteConfig.maps.googleMapsUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-xs font-semibold bg-brand-ivory text-forest hover:bg-forest hover:text-white border border-brand-border transition-all"
+                    href={`mailto:${siteConfig.contact.email}`}
+                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-xs font-semibold bg-brand-primary text-white hover:bg-forest transition-all"
                   >
-                    <MapPin className="w-4 h-4 text-brand-primary" />
-                    <span>View Jeda Plaza on Google Maps</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
+                    <Mail className="w-4 h-4" />
+                    <span>Send Email to {siteConfig.contact.email}</span>
                   </a>
                   <p className="text-[11px] text-brand-muted text-center mt-2">
-                    Verified building location: Jeda Plaza, Roysambu, along
-                    Thika Road, Nairobi.
+                    Send us your questions or advisory requests anytime via email.
                   </p>
                 </div>
               </div>

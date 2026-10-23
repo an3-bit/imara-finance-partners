@@ -3,14 +3,6 @@ export interface SiteConfig {
   legalEntityNote: string;
   tagline: string;
   locationIndicator: string;
-  address: {
-    building: string;
-    floor: string;
-    area: string;
-    city: string;
-    country: string;
-    fullFormatted: string;
-  };
   contact: {
     email: string;
     isEmailPlaceholder: boolean;
@@ -18,10 +10,6 @@ export interface SiteConfig {
     isPhonePlaceholder?: boolean;
     whatsapp?: string;
     isWhatsAppConfigured?: boolean;
-  };
-  maps: {
-    googleMapsUrl: string;
-    searchQuery: string;
   };
   siteUrl: string;
   businessHours: string;
@@ -33,23 +21,10 @@ export const siteConfig: SiteConfig = {
     "A professional accounting, bookkeeping, tax compliance, payroll, and business finance advisory firm.",
   tagline: "Professional Accounting. Stronger Financial Decisions.",
   locationIndicator: "Serving Businesses Globally | Remote & Worldwide",
-  address: {
-    building: "Jeda Plaza",
-    floor: "4th Floor",
-    area: "Roysambu",
-    city: "Nairobi",
-    country: "Kenya",
-    fullFormatted: "Jeda Plaza, 4th Floor, Roysambu, Nairobi, Kenya",
-  },
   contact: {
     // Configured business email address
     email: "info@ledgerbridgeaccountants.com",
     isEmailPlaceholder: false,
-  },
-  maps: {
-    searchQuery: "Jeda Plaza, Roysambu, Nairobi",
-    googleMapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Jeda+Plaza+Roysambu+Nairobi+Kenya",
   },
   siteUrl: "https://www.ledgerbridge.com",
   businessHours: "Monday – Friday: 8:30 AM – 5:00 PM",

@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import {
-  MapPin,
   Mail,
   Clock,
   ArrowUpRight,
@@ -29,14 +28,11 @@ export default function Footer() {
               Hours: {siteConfig.businessHours}
             </span>
             <a
-              href={siteConfig.maps.googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-brand-accent hover:underline"
+              href={`mailto:${siteConfig.contact.email}`}
+              className="inline-flex items-center gap-1.5 text-brand-accent hover:underline"
             >
-              <MapPin className="w-3.5 h-3.5" />
-              <span>Locate on Google Maps</span>
-              <ArrowUpRight className="w-3 h-3" />
+              <Mail className="w-3.5 h-3.5" />
+              <span>{siteConfig.contact.email}</span>
             </a>
           </div>
         </div>
@@ -60,20 +56,19 @@ export default function Footer() {
             </div>
 
             <div className="pt-4 space-y-2.5 text-sm text-gray-300">
-              <div className="flex items-start gap-3">
-                <MapPin className="w-4 h-4 text-brand-accent flex-shrink-0 mt-1" />
-                <span>{siteConfig.address.fullFormatted}</span>
-              </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-brand-accent flex-shrink-0" />
-                <span className="font-mono text-xs">
+                <a
+                  href={`mailto:${siteConfig.contact.email}`}
+                  className="font-mono text-xs hover:text-white transition-colors"
+                >
                   {siteConfig.contact.email}
-                  {siteConfig.contact.isEmailPlaceholder && (
-                    <span className="ml-2 text-[10px] text-gray-400 border border-white/20 rounded px-1.5 py-0.5">
-                      Configurable
-                    </span>
-                  )}
-                </span>
+                </a>
+                {siteConfig.contact.isEmailPlaceholder && (
+                  <span className="text-[10px] text-gray-400 border border-white/20 rounded px-1.5 py-0.5">
+                    Configurable
+                  </span>
+                )}
               </div>
             </div>
           </div>
